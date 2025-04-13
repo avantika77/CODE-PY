@@ -1,0 +1,8 @@
+import pandas as pd
+data = [10, 20.06, "hello", 40000.0,-6.09,-7] # Creating a Series 
+series = pd.Series(data)
+print(series)
+print ("Data type", series.dtype)
+data_float=series.astype(float)
+print(data_float)
+print()
